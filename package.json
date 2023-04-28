@@ -2,7 +2,7 @@
   "name": "board-front",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "proxy": "http://ec2-3-38-153-216.ap-northeast-2.compute.amazonaws.com:8080",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",

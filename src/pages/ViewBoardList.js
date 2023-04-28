@@ -25,7 +25,7 @@ const ViewBoardList = () => {
     const getBoardList = (pageNo) => {
         axios.get("/api/board/list", {params: {pageNo: pageNo-1}})
             .then((res) => {
-                SetBoardList(res.data.content);
+                SetBoardList(res.data.content.reverse());
             })
     }
 
